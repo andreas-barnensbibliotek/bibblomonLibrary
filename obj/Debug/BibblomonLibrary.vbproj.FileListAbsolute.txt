@@ -1,0 +1,14 @@
+D:\devprojekt\libraries\BibblomonLibrary\obj\Debug\BibblomonLibrary.vbprojResolveAssemblyReference.cache
+D:\devprojekt\libraries\BibblomonLibrary\obj\Debug\BibblomonLibrary.Resources.resources
+D:\devprojekt\libraries\BibblomonLibrary\obj\Debug\BibblomonLibrary.vbproj.GenerateResource.Cache
+D:\devprojekt\libraries\BibblomonLibrary\bin\Debug\BibblomonLibrary.dll.config
+D:\devprojekt\libraries\BibblomonLibrary\bin\Debug\BibblomonLibrary.dll
+D:\devprojekt\libraries\BibblomonLibrary\bin\Debug\BibblomonLibrary.pdb
+D:\devprojekt\libraries\BibblomonLibrary\bin\Debug\BibblomonLibrary.xml
+D:\devprojekt\libraries\BibblomonLibrary\obj\Debug\BibblomonLibrary.dll
+D:\devprojekt\libraries\BibblomonLibrary\obj\Debug\BibblomonLibrary.xml
+D:\devprojekt\libraries\BibblomonLibrary\obj\Debug\BibblomonLibrary.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\BibblomonLibrary.dll.config
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\BibblomonLibrary.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\BibblomonLibrary.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\BibblomonLibrary.xml

@@ -1,0 +1,13 @@
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\BibblomonLibraryTEST.dll
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\BibblomonLibraryTEST.pdb
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\BibblomonLibraryTEST.xml
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\BibblomonLibrary.dll
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\BibblomonLibrary.pdb
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\bin\Debug\BibblomonLibrary.xml
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\obj\Debug\BibblomonLibraryTEST.vbprojResolveAssemblyReference.cache
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\obj\Debug\BibblomonLibraryTEST.Resources.resources
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\obj\Debug\BibblomonLibraryTEST.vbproj.GenerateResource.Cache
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\obj\Debug\BibblomonLibraryTEST.dll
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\obj\Debug\BibblomonLibraryTEST.xml
+D:\devprojekt\libraries\BibblomonLibrary\BibblomonLibraryTEST\obj\Debug\BibblomonLibraryTEST.pdb

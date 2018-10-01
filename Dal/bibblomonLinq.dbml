@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AJDNNDatabase_v5" Class="bibblomonLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=AJDNNDatabase_v5;User ID=forfAdmin2" SettingsObjectName="BibblomonLibrary.My.MySettings" SettingsPropertyName="AJDNNDatabase_v5ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblmonster" Member="tblmonsters">
+    <Type Name="tblmonster">
+      <Column Name="Monsterid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Userid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timetonext" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalscore" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblmonsterToUser" Member="tblmonsterToUsers">
+    <Type Name="tblmonsterToUser">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="monid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="userid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonsterScore" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="monlevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonsterXP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblmonsterDrakelist" Member="tblmonsterDrakelists">
+    <Type Name="tblmonsterDrakelist">
+      <Column Name="drakId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="draknamn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="draksrc" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="drakinfo" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="drakbasepoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="drakbonus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblmonsterList" Member="tblmonsterLists">
+    <Type Name="tblmonsterList">
+      <Column Name="monId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="monsternamn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="monstersrc" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="monsterinfo" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="basepoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bonus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="maxpoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblmonsterLog" Member="tblmonsterLogs">
+    <Type Name="tblmonsterLog">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="logtype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Userid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="monid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="winlose" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="points" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="logtext" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="datum" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblmonsterLogtyper" Member="tblmonsterLogtypers">
+    <Type Name="tblmonsterLogtyper">
+      <Column Name="logtypid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="logtyp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.AJ_getMonsterHighscore" Method="AJ_getMonsterHighscore">
+    <Parameter Name="antal" Type="System.Int32" DbType="Int" />
+    <ElementType Name="AJ_getMonsterHighscoreResult">
+      <Column Name="highscore" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AJ_getMonsterlistExt" Method="AJ_getMonsterlistExt">
+    <Parameter Name="userid" Type="System.Int32" DbType="Int" />
+    <ElementType Name="AJ_getMonsterlistExtResult">
+      <Column Name="monId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="monsternamn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="monstersrc" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="basepoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bonus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="monsterinfo" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="MonsterScore" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonsterXP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="monlevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
