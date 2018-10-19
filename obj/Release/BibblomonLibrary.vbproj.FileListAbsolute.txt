@@ -1,0 +1,9 @@
+D:\devprojekt\libraries\BibblomonLibrary\bin\Release\BibblomonLibrary.dll.config
+D:\devprojekt\libraries\BibblomonLibrary\bin\Release\BibblomonLibrary.dll
+D:\devprojekt\libraries\BibblomonLibrary\bin\Release\BibblomonLibrary.pdb
+D:\devprojekt\libraries\BibblomonLibrary\bin\Release\BibblomonLibrary.xml
+D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.Resources.resources
+D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.vbproj.GenerateResource.Cache
+D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.dll
+D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.xml
+D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.pdb
