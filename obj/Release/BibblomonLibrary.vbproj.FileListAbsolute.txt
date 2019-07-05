@@ -7,3 +7,4 @@ D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.vbproj.Gen
 D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.dll
 D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.xml
 D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.pdb
+D:\devprojekt\libraries\BibblomonLibrary\obj\Release\BibblomonLibrary.vbproj.CoreCompileInputs.cache
